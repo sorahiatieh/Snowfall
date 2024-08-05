@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow: hidden;
+}
+
+.winter{
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.winter div{
+    background-color: snow;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    position: absolute;
+    top: -20px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.winter div:nth-child(1) {
+    left: 150px;
+    animation: snow-animation 15s infinite;
+}
+.winter div:nth-child(2) {
+    left: 120px;
+    animation: snow-animation 13s infinite;
+
+}
+.winter div:nth-child(3) {
+    left: 170px;
+    animation: snow-animation 11s infinite;
+
+}
+.winter div:nth-child(4) {
+    left: 30%;
+    animation: snow-animation 17s infinite;
+
+}
+.winter div:nth-child(5) {
+    left: 70%;
+    animation: snow-animation 9s infinite;
+
+}
+.winter div:nth-child(6) {
+    left: 210px;
+    animation: snow-animation 8s infinite;
+
+}
+.winter div:nth-child(7) {
+    left: 40%;
+    animation: snow-animation 10s infinite;
+
+}
+.winter div:nth-child(8) {
+    right: 10px;
+    animation: snow-animation 18s infinite;
+
+}
+.winter div:nth-child(9) {
+    right:40px;
+    animation: snow-animation 14s infinite;
+
+}
+.winter div:nth-child(10) {
+    left: 250px;
+    animation: snow-animation 12s infinite;
+}
+.winter div:nth-child(11) {
+    right: 150px;
+    animation: snow-animation 17s infinite;
+}
+.winter div:nth-child(12) {
+    right: 250px;
+    animation: snow-animation 11s infinite;
+}
+.winter div:nth-child(13) {
+    left: 50%;
+    animation: snow-animation 8s infinite;
+}
+.winter div:nth-child(14) {
+    left: 60%;
+    animation: snow-animation 12s infinite;
+}
+.winter div:nth-child(15) {
+    left: 70%;
+    animation: snow-animation 16s infinite;
+}
+.winter div:nth-child(16) {
+    left: 4%;
+    animation: snow-animation 12s infinite;
+}
+.winter div:nth-child(17) {
+    left: 10px;
+    animation: snow-animation 7s infinite;
+}
+.winter div:nth-child(18) {
+    left: 66%;
+    animation: snow-animation 6s infinite;
+}
+.winter div:nth-child(19) {
+    left: 54%;
+    animation: snow-animation 18s infinite;
+}
+.winter div:nth-child(20) {
+    left: 38%;
+    animation: snow-animation 20s infinite;
+}
+.winter div:nth-child(21) {
+    left: 38%;
+    animation: snow-animation 20s infinite;
+}
+.winter div:nth-child(22) {
+    left: 50%;
+    animation: snow-animation 19s infinite;
+}
+.winter div:nth-child(23) {
+    left: 55%;
+    animation: snow-animation 17s infinite;
+}
+.winter div:nth-child(24) {
+    left: 63%;
+    animation: snow-animation 15s infinite;
+}
+.winter div:nth-child(25) {
+    left: 59%;
+    animation: snow-animation 14s infinite;
+}
+.winter div:nth-child(26) {
+    left: 70%;
+    animation: snow-animation 8s infinite;
+}
+.winter div:nth-child(27) {
+    left: 65%;
+    animation: snow-animation 14s infinite;
+}
+.winter div:nth-child(28) {
+    left: 6%;
+    animation: snow-animation 14s infinite;
+}
+.winter div:nth-child(29) {
+    left: 78%;
+    animation: snow-animation 14s infinite;
+}
+.winter div:nth-child(30) {
+    left: 80%;
+    animation: snow-animation 14s infinite;
+}
+
+
+
+
+@keyframes snow-animation{
+    0%{
+        top: -20px;
+    }
+    100%{
+        top: 120%;
+    }
+}
